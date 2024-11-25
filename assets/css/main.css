@@ -656,7 +656,7 @@ Location:
   display: inline-block;
   border-radius: 50%;
   transition: all 0.4s;
-  background: #A9CF3D;
+  background: #fbf139;
   left: 5px;
   top: 5px;
   z-index: -1;
@@ -671,7 +671,7 @@ Location:
   line-height: 16px;
   display: inline-block;
   transition: all 0.4s;
-  background: var(--ztc-bg-bg-6);
+  background:#fab512;
   border-radius: 80px;
   padding: 17px 24px;
   position: relative;
@@ -694,7 +694,7 @@ Location:
   display: inline-block;
   border-radius: 50%;
   transition: all 0.4s;
-  background: #7FA975;
+  background: #e69412;
   left: 5px;
   top: 5px;
   z-index: -1;
@@ -749,7 +749,7 @@ Location:
   line-height: 16px;
   display: inline-block;
   transition: all 0.4s;
-  background: var(--ztc-bg-bg-8);
+  background: #fab512;
   border-radius: 80px;
   padding: 17px 24px;
   position: relative;
@@ -772,7 +772,7 @@ Location:
   display: inline-block;
   border-radius: 50%;
   transition: all 0.4s;
-  background: #446A64;
+  background: #eea611;
   left: 5px;
   top: 5px;
   z-index: -1;
@@ -917,7 +917,7 @@ Location:
   line-height: 16px;
   display: inline-block;
   transition: all 0.4s;
-  background: var(--ztc-bg-bg-15);
+  background: #e69412;
   border-radius: 130px;
   padding: 16px 20px;
   position: relative;
@@ -1079,7 +1079,7 @@ Location:
 }
 
 .heading1 h5 {
-  color: var(--ztc-text-text-4);
+  color:#000;
   font-family: var(--ztc-family-font2);
   font-size: var(--ztc-font-size-font-s18);
   font-style: normal;
@@ -1116,7 +1116,7 @@ Location:
 }
 
 .heading2 h5 {
-  color: var(--ztc-text-text-7);
+  color: #000;
   font-family: var(--ztc-family-font2);
   font-size: var(--ztc-font-size-font-s18);
   font-style: normal;
@@ -1413,7 +1413,7 @@ Location:
 }
 
 .heading7 h5 {
-  color: var(--ztc-text-text-20);
+  color:#000;
   font-family: var(--ztc-family-font2);
   font-size: var(--ztc-font-size-font-s18);
   font-style: normal;
@@ -3327,7 +3327,7 @@ Location:
   line-height: 48px;
   display: inline-block;
   transition: all 0.4s;
-  background: var(--ztc-bg-bg-6);
+  background: #e69412;
   border-radius: 50%;
   color: var(--ztc-text-text-1);
   font-family: var(--ztc-family-font2);
@@ -9362,7 +9362,7 @@ Location:
 }
 .footer2-bottom-section .footer-bottom-area .footer-menu-area .footer-logo img {
   width: 150px;
-  height: 48px;
+  height:200px;
   -o-object-fit: contain;
      object-fit: contain;
 }
@@ -9460,8 +9460,8 @@ Location:
   display: inline-block;
 }
 .footer2-bottom-section .footer-bottom-area .footer-menu-area .footer-social ul li a {
-  height: 48px;
-  width: 48px;
+  height: 41px;
+  width: 41px;
   text-align: center;
   line-height: 48px;
   transition: all 0.4s;
@@ -12377,8 +12377,9 @@ Location:
   transition: all 0.4s;
 }
 .homepage2-body .header-area.homepage2 .site-logo {
-  height: 48px;
-  width: 180px;
+  height: 98px;
+  width: 380px;
+  margin-left: 30px;
 }
 .homepage2-body .header-area.homepage2 nav#navbar-example2 {
   display: block;
@@ -12394,8 +12395,9 @@ Location:
   position: relative;
   transition: all 0.4s;
   background: var(--ztc-bg-bg-1);
-  border-radius: 80px;
-  padding: 15px 24px;
+  border-radius: 30px;
+  padding: 5px 14px;
+  
 }
 .homepage2-body .header-area.homepage2 .header-elements .all-images-menu {
   display: flex;
@@ -12569,7 +12571,7 @@ Location:
 }
 .homepage2-body .header-area.homepage2 .header-elements .main-menu ul li:hover > a {
   transition: all 0.4s;
-  color: var(--ztc-text-text-7) !important;
+  color: #e69412 !important;
 }
 .homepage2-body .header-area.homepage2 .header-elements .main-menu ul li .tp-submenu {
   visibility: hidden;
@@ -17865,7 +17867,7 @@ Location:
 .contact1-section-area {
   position: relative;
   z-index: 1;
-  background: var(--ztc-bg-bg-6);
+  background:#e69412;
 }
 .contact1-section-area .heading2 h5 {
   color: var(--ztc-text-text-1);
@@ -18617,7 +18619,7 @@ Location:
 .testimonial1-section-area .testimonial-slider-area .testimonial-box p {
   color: var(--ztc-text-text-2);
   font-family: var(--ztc-family-font2);
-  font-size: var(--ztc-font-size-font-s24);
+  /* font-size: var(--ztc-font-size-font-s24); */
   font-style: normal;
   font-weight: var(--ztc-weight-medium);
   line-height: 36px;
