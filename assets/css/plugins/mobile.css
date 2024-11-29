@@ -14,21 +14,24 @@ Desc:
 
 /*Base css*/
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     font-size: 16px;
     font-family: "Figtree", sans-serif;
 }
 
-a, a:hover{
+a,
+a:hover {
     outline: none;
     text-decoration: none;
 }
 
-ul, li{
+ul,
+li {
     list-style: none;
 }
 
@@ -37,7 +40,7 @@ ul, li{
 
 /*Menu Css*/
 
-.mobile-logo a{
+.mobile-logo a {
     font-size: 20px;
     font-weight: 500;
     color: #161616;
@@ -45,14 +48,15 @@ ul, li{
 }
 
 
+
 .mobile-header {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    padding: 17px 0;
+    padding: 5px 0;
     z-index: 9;
-    
+
 }
 
 .mobile-header-elements {
@@ -79,7 +83,7 @@ ul, li{
     position: fixed;
     height: 100%;
     width: 100%;
-    background:#F6F6EC;
+    background: #F6F6EC;
     z-index: 99;
     padding: 40px 30px;
     left: -100%;
@@ -87,21 +91,21 @@ ul, li{
     visibility: hidden;
     opacity: 0;
     transition: all .3s;
-    
-    
+
+
 }
 
-.mobile-sidebar .contact-icon{
+.mobile-sidebar .contact-icon {
     background: #161616;
 }
 
 
-.mobile-sidebar.mobile-menu-active{
+.mobile-sidebar.mobile-menu-active {
     left: 0;
     visibility: visible;
     opacity: 1;
     transition: all .3s;
-    overflow-y:scroll ;
+    overflow-y: scroll;
 }
 
 .menu-close {
@@ -153,7 +157,7 @@ ul.mobile-menu-sub {
     transition: all .3s;
 }
 
-ul.mobile-menu-sub.sub-menu-active{
+ul.mobile-menu-sub.sub-menu-active {
     display: block;
     position: relative;
     transition: all .3s;
@@ -176,7 +180,8 @@ span.submenu-button {
     transition: all .3s;
 }
 
-span.submenu-button:after, span.submenu-button:before {
+span.submenu-button:after,
+span.submenu-button:before {
     position: absolute;
     content: "";
     height: 20px;
@@ -199,7 +204,7 @@ span.submenu-button.submenu-opened:after {
     opacity: 0;
 }
 
-.sub-menu{
+.sub-menu {
     display: none;
     padding-left: 15px;
 }
